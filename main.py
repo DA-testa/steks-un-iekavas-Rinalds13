@@ -32,8 +32,13 @@ def find_mismatch(text):
 def main():
     text = input()
     mismatch = find_mismatch(text)
-    # Printing answer, write your code here
     print(mismatch)
+    # Printing answer, write your code here
+    
+    if "I" in text:
+        text = input()
+        mismatch = find_mismatch(text)
+        print(mismatch)
 
 
 if __name__ == "__main__":
